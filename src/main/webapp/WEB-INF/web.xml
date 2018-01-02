@@ -102,7 +102,7 @@
 
     <servlet-mapping>
         <servlet-name>springDispatcherServlet</servlet-name>
-        <url-pattern>/</url-pattern>
+        <url-pattern>*.action</url-pattern>
     </servlet-mapping>
   
 </web-app>
